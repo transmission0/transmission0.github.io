@@ -1,14 +1,18 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 h1 {
   margin-bottom: 20px;
 }
 
+ul {
+  padding-inline-start: 0px;
+}
+
 ul li {
   display: inline-block;
-  padding: 0 15px; /* 0 refers to top and bottom and 15px to left and right */
+  padding: 0 15px;
   margin-top: 10px;
   font-size: 50px;
 }
@@ -24,22 +28,22 @@ ul li a:hover {
   opacity: 100%;
 }
 
-
 #bgvideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .bandname {
-    color: #e0e0e0;
-    font-size: 72px;
-    font-family: Futura;
-    font-weight: lighter;
-    text-transform: uppercase;
-    letter-spacing: 12px;}
+  color: #e0e0e0;
+  font-size: 72px;
+  font-family: Futura;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
 
 .position {
   position: absolute;
@@ -48,4 +52,5 @@ ul li a:hover {
   padding: 5%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);}
+  transform: translate(-50%, -50%);
+}
