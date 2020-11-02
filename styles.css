@@ -3,11 +3,12 @@ body {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin: 20px 0px;
 }
 
 ul {
   padding-inline-start: 0px;
+  margin: 20px 0px;
 }
 
 ul li {
