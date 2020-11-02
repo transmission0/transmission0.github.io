@@ -2,6 +2,29 @@ body {
     background-color: black;
 }
 
+h1 {
+  margin-bottom: 20px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 15px; /* 0 refers to top and bottom and 15px to left and right */
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #e0e0e0;
+  opacity: 30%;
+}
+
+ul li a:hover {
+  color: white;
+  opacity: 100%;
+}
+
+
 #bgvideo {
     position: fixed;
     right: 0;
@@ -10,16 +33,19 @@ body {
     min-height: 100%;
 }
 
-#bandname {
-    color: white;
+.bandname {
+    color: #e0e0e0;
     font-size: 72px;
     font-family: Futura;
     font-weight: lighter;
     text-transform: uppercase;
-    letter-spacing: 12px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
+    letter-spacing: 12px;}
+
+.position {
+  position: absolute;
+  text-align: center;
+  width: 95%;
+  padding: 5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
