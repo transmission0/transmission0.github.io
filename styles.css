@@ -1,25 +1,56 @@
 body {
-    background-color: black;
+  background-color: black;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 15px;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #e0e0e0;
+  opacity: 30%;
+}
+
+ul li a:hover {
+  color: white;
+  opacity: 100%;
 }
 
 #bgvideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-#bandname {
-    color: white;
-    font-size: 72px;
-    font-family: Futura;
-    font-weight: lighter;
-    text-transform: uppercase;
-    letter-spacing: 12px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+.bandname {
+  color: #e0e0e0;
+  font-size: 72px;
+  font-family: Futura;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
+
+.position {
+  position: absolute;
+  text-align: center;
+  width: 95%;
+  padding: 5%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
